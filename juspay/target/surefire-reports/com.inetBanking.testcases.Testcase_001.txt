@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.inetBanking.testcases.Testcase_001
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 7.474 s <<< FAILURE! - in com.inetBanking.testcases.Testcase_001
+loginTest(com.inetBanking.testcases.Testcase_001)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "com.inetBanking.testcases.Testcase_001.driver" is null
+	at com.inetBanking.testcases.Testcase_001.loginTest(Testcase_001.java:12)
+
+tearDown(com.inetBanking.testcases.Testcase_001)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "com.inetBanking.testcases.BaseClass.driver" is null
+
